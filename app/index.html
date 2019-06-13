@@ -1,0 +1,585 @@
+
+<html lang="en">
+  <head>
+    <title>Step 1</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="plugins/slick.css"/>
+    <link rel="stylesheet" href="plugins/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="head-container">
+        <div class="container">
+          <header>
+            <div>
+              <svg width="156" height="40" viewBox="0 0 156 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                  <path d="M17.2327 0V17.0649L20.2539 19.1144L32.8246 10.583L17.2327 0Z" fill="#7F87C0"></path>
+                  <path d="M16.0358 17.0649V0L0.441711 10.583L13.0168 19.1144L16.0358 17.0649Z" fill="#676DB0"></path>
+                  <path d="M21.3206 19.8388L17.2327 22.6126V40L33.2685 29.121V27.9483V11.7314L21.3206 19.8388Z" fill="#34388C"></path>
+                  <path d="M0 11.7292V27.9483V29.1188L16.0358 40V22.6104L11.9501 19.8388L0 11.7292Z" fill="#34388C"></path>
+                  <path d="M43.5071 27.4293V33.0101H52.4161L52.8269 32.7032V24.6643L52.4161 24.3573H38.9156V20.7729H55.2739C55.5483 20.7791 55.8166 20.8551 56.0535 20.9938C56.3194 21.1394 56.5614 21.3249 56.7712 21.5437C56.9808 21.7624 57.1612 22.0074 57.3079 22.2725C57.4443 22.5015 57.5203 22.7614 57.5287 23.0278V33.7014C57.5404 34.1826 57.4571 34.6614 57.2836 35.1104C57.142 35.472 56.9191 35.7962 56.6321 36.0578C56.3639 36.2931 56.0505 36.4712 55.7111 36.5813C55.3635 36.6926 55.0006 36.7484 54.6356 36.7469H38.9156V27.4293H43.5071Z" fill="white"></path>
+                  <path d="M80.4881 36.7469H75.7001L74.4987 34.5958H65.0773L63.8737 36.7469H59.0349L67.5353 20.7729H72.0649L80.4881 36.7469ZM72.659 30.8856L69.7107 25.6625L67.0473 30.8856H72.659Z" fill="white"></path>
+                  <path d="M82.076 20.7729H86.5724V33.1647H98.655V36.7469H82.076V20.7729Z" fill="white"></path>
+                  <path d="M100.866 20.7729H117.454V24.3573H105.371V26.9677H111.72V30.6559H105.371V33.1647H117.454V36.7469H100.866V20.7729Z" fill="white"></path>
+                  <path d="M119.655 20.7729H136.246V24.3573H124.161V26.9677H130.521V30.6559H124.161V33.1647H136.246V36.7469H119.655V20.7729Z" fill="white"></path>
+                  <path d="M138.447 20.7729H142.953V33.1647H155.035V36.7469H138.447V20.7729Z" fill="white"></path>
+                </g>
+                <defs>
+                  <clippath id="clip0">
+                    <rect width="155.035" height="40" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+            </div>
+            <div>
+              <ul class="top-list">
+                <li>
+                  <div class="search-box"><input class="search-text" type="text" name="search" placeholder="Search text" />
+                    <svg class="search-btn" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.7753 14.6511L12.8091 11.7067C13.9605 10.2699 14.5181 8.44635 14.3672 6.61085C14.2163 4.77535 13.3685 3.06745 11.998 1.83834C10.6275 0.609226 8.83848 -0.0476794 6.99887 0.00269722C5.15925 0.0530739 3.40884 0.806903 2.10755 2.10918C0.80626 3.41146 0.0530031 5.1632 0.00266465 7.00421C-0.0476738 8.84523 0.608733 10.6356 1.83691 12.0071C3.06509 13.3787 4.77169 14.2272 6.6058 14.3781C8.43991 14.5291 10.2621 13.9711 11.6977 12.8188L14.64 15.7633C14.7143 15.8383 14.8027 15.8978 14.9002 15.9385C14.9976 15.9791 15.1021 16 15.2076 16C15.3132 16 15.4177 15.9791 15.5151 15.9385C15.6126 15.8978 15.701 15.8383 15.7753 15.7633C15.9194 15.6141 16 15.4147 16 15.2072C16 14.9997 15.9194 14.8003 15.7753 14.6511ZM7.2124 12.8188C6.10548 12.8188 5.02343 12.4903 4.10306 11.8749C3.18269 11.2595 2.46535 10.3847 2.04175 9.36129C1.61815 8.33786 1.50732 7.2117 1.72327 6.12523C1.93922 5.03875 2.47225 4.04076 3.25496 3.25746C4.03767 2.47416 5.0349 1.94072 6.12055 1.72461C7.20619 1.50849 8.3315 1.61941 9.35416 2.04333C10.3768 2.46725 11.2509 3.18514 11.8659 4.1062C12.4808 5.02727 12.8091 6.11015 12.8091 7.21791C12.8091 8.70337 12.2194 10.128 11.1698 11.1784C10.1203 12.2287 8.69673 12.8188 7.2124 12.8188Z" fill="#9EA8AB"></path>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="btn btn--mini btn-light btn--raised">Login</div>
+                </li>
+                <li>
+                  <div class="btn btn--mini btn-light btn--raised">Register</div>
+                </li>
+                <li>
+                  <div class="btn btn--mini btn-dark btn--raised dark--text btn--icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 0C6.41775 0 4.87103 0.469192 3.55544 1.34824C2.23985 2.22729 1.21447 3.47672 0.608967 4.93853C0.00346627 6.40034 -0.15496 8.00887 0.153721 9.56072C0.462403 11.1126 1.22433 12.538 2.34315 13.6569C3.46197 14.7757 4.88743 15.5376 6.43928 15.8463C7.99113 16.155 9.59966 15.9965 11.0615 15.391C12.5233 14.7855 13.7727 13.7602 14.6518 12.4446C15.5308 11.129 16 9.58225 16 8C16 6.94942 15.7931 5.90914 15.391 4.93853C14.989 3.96793 14.3997 3.08601 13.6569 2.34315C12.914 1.60028 12.0321 1.011 11.0615 0.608964C10.0909 0.206926 9.05058 0 8 0ZM8 14.4C6.7342 14.4 5.49683 14.0246 4.44435 13.3214C3.39188 12.6182 2.57157 11.6186 2.08717 10.4492C1.60277 9.27972 1.47603 7.9929 1.72298 6.75142C1.96992 5.50994 2.57946 4.36957 3.47452 3.47452C4.36958 2.57946 5.50995 1.96992 6.75142 1.72297C7.9929 1.47603 9.27973 1.60277 10.4492 2.08717C11.6186 2.57157 12.6182 3.39187 13.3214 4.44435C14.0246 5.49682 14.4 6.7342 14.4 8C14.4 9.69738 13.7257 11.3252 12.5255 12.5255C11.3253 13.7257 9.69739 14.4 8 14.4ZM11.2 7.2H8.8V4.8C8.8 4.58783 8.71572 4.38434 8.56569 4.23431C8.41566 4.08428 8.21217 4 8 4C7.78783 4 7.58435 4.08428 7.43432 4.23431C7.28429 4.38434 7.2 4.58783 7.2 4.8V7.2H4.8C4.58783 7.2 4.38435 7.28428 4.23432 7.43431C4.08429 7.58434 4 7.78782 4 8C4 8.21217 4.08429 8.41565 4.23432 8.56568C4.38435 8.71571 4.58783 8.8 4.8 8.8H7.2V11.2C7.2 11.4122 7.28429 11.6157 7.43432 11.7657C7.58435 11.9157 7.78783 12 8 12C8.21217 12 8.41566 11.9157 8.56569 11.7657C8.71572 11.6157 8.8 11.4122 8.8 11.2V8.8H11.2C11.4122 8.8 11.6157 8.71571 11.7657 8.56568C11.9157 8.41565 12 8.21217 12 8C12 7.78782 11.9157 7.58434 11.7657 7.43431C11.6157 7.28428 11.4122 7.2 11.2 7.2Z" fill="#1F2569"></path>
+                    </svg><span>Add company</span>
+                  </div>
+                </li>
+              </ul>
+              <svg class="burger" width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.333984 0H21.668V2.666H0.333984V0ZM0.333984 6.666H21.668V9.332H0.333984V6.666ZM0.333984 13.334H21.668V16H0.333984V13.334Z" fill="white"></path>
+              </svg>
+            </div>
+          </header>
+          <div class="description-box">
+            <div class="content">
+              <h1>OPERATIONAL EXCELLENCE</h1><span>
+                Daleel is a portal that provides unique business intelligence to make the best decisionsand allows exchange of knowledge that our industry needs to best meet its requirements.</span>
+            </div>
+          </div>
+        </div>
+        <div class="header-navbar">
+          <div class="container items-row"><a class="navbar-item" href="#supp">Suppliers</a><a class="navbar-item" href="#int">Intelligence</a><a class="navbar-item" href="#news">News</a><a class="navbar-item" href="#art">Expert articles</a><a class="navbar-item" href="#ind">Indices</a></div>
+        </div>
+      </div>
+      <div class="intelligence-container" id="int">
+        <div class="container intelligence-body">
+          <h1 class="title">Intelligence with information that matters</h1>
+          <div class="intelligence-blocks">
+            <div class="int-block int-block-1">
+              <h2>Site Surveys & Investigation</h2>
+              <div class="btns-block">
+                <div class="tag">#tag-1</div>
+                <div class="tag">#long-long-tag-2</div>
+              </div>
+            </div>
+            <div class="int-block int-block-2">
+              <h2>Seismic Survey and Data Acquisition</h2>
+              <div class="btns-block">
+                <div class="tag">#tag-1</div>
+                <div class="tag">#long-long-tag-2</div>
+              </div>
+            </div>
+            <div class="int-block int-block-3">
+              <h2>Seismic Survey and Data Acquisition</h2>
+              <div class="btns-block">
+                <div class="tag">#tag-1</div>
+                <div class="tag">#long-long-tag-2</div>
+              </div>
+            </div>
+            <div class="int-block int-block-4">
+              <h2>Seismic Survey and Data Acquisition</h2>
+              <div class="btns-block">
+                <div class="tag">#tag-1</div>
+                <div class="tag">#long-long-tag-2</div>
+              </div>
+            </div>
+            <div class="int-block int-block-5">
+              <h2>Сопровождение</h2>
+              <div class="btns-block">
+                <div class="tag">#tag-1</div>
+                <div class="tag">#long-long-tag-2</div>
+              </div>
+            </div>
+            <div class="int-block int-block-6">
+              <h2>Сопровождение</h2>
+              <div class="btns-block">
+                <div class="tag">#tag-1</div>
+                <div class="tag">#long-long-tag-2</div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-box">
+            <div class="btn btn-light btn--raised btn--width">View All Categories</div>
+          </div>
+        </div>
+      </div>
+      <div class="forum-container" id="ind">
+        <div class="forum-body">
+          <h1 class="title">Forum</h1>
+          <div class="forum-blocks">
+            <div class="for-block for-block-1">
+              <div class="category-block">
+                <p class="block-title">Category</p><span>Saudi Aramco awards contracts to L&T-led consortium</span>
+              </div>
+              <div class="question-block">
+                <p class="block-title">Question</p><span>What is the purpouse of drilling rings in gas supply industry</span>
+              </div>
+              <div class="for-footer">
+                <div class="info-box">
+                  <div class="answers-box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.3118 10.3279C7.8433 10.3279 8.27416 9.89704 8.27416 9.36554C8.27416 8.83404 7.8433 8.40318 7.3118 8.40318C6.7803 8.40318 6.34944 8.83404 6.34944 9.36554C6.34944 9.89704 6.7803 10.3279 7.3118 10.3279Z" fill="#4F58B8"></path>
+                      <path d="M11.1612 9.36554C11.1612 9.89704 10.7304 10.3279 10.1989 10.3279C9.66739 10.3279 9.23652 9.89704 9.23652 9.36554C9.23652 8.83404 9.66739 8.40318 10.1989 8.40318C10.7304 8.40318 11.1612 8.83404 11.1612 9.36554Z" fill="#4F58B8"></path>
+                      <path d="M13.086 10.3279C13.6175 10.3279 14.0483 9.89704 14.0483 9.36554C14.0483 8.83404 13.6175 8.40318 13.086 8.40318C12.5545 8.40318 12.1236 8.83404 12.1236 9.36554C12.1236 9.89704 12.5545 10.3279 13.086 10.3279Z" fill="#4F58B8"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1989 1.66666C5.54949 1.66666 2.5 5.53071 2.5 9.36555C2.5 11.7384 3.34463 13.3185 4.2936 14.4147L2.98731 18.3333L4.64494 18.0018C5.62208 17.8064 6.19259 17.6923 6.76543 17.5914C7.56923 17.4499 8.37762 17.3344 10.3205 17.0568L10.335 17.0548C14.8269 16.413 17.8978 13.2069 17.8978 9.36555C17.8978 5.63967 14.8569 1.66666 10.1989 1.66666ZM4.42472 9.36555C4.42472 6.46384 6.73786 3.59138 10.1989 3.59138C13.6514 3.59138 15.9731 6.55434 15.9731 9.36555C15.9731 12.0612 13.8052 14.6147 10.0628 15.1494C7.64757 15.4944 6.94886 15.5943 5.86047 15.8005L6.4882 13.9174L6.0676 13.4968C5.24483 12.6741 4.42472 11.4637 4.42472 9.36555Z" fill="#4F58B8"></path>
+                      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="1" width="16" height="18">
+                        <path d="M7.3118 10.3279C7.8433 10.3279 8.27416 9.89704 8.27416 9.36554C8.27416 8.83404 7.8433 8.40318 7.3118 8.40318C6.7803 8.40318 6.34944 8.83404 6.34944 9.36554C6.34944 9.89704 6.7803 10.3279 7.3118 10.3279Z" fill="#4F58B8"></path>
+                        <path d="M11.1612 9.36554C11.1612 9.89704 10.7304 10.3279 10.1989 10.3279C9.66739 10.3279 9.23652 9.89704 9.23652 9.36554C9.23652 8.83404 9.66739 8.40318 10.1989 8.40318C10.7304 8.40318 11.1612 8.83404 11.1612 9.36554Z" fill="#4F58B8"></path>
+                        <path d="M13.086 10.3279C13.6175 10.3279 14.0483 9.89704 14.0483 9.36554C14.0483 8.83404 13.6175 8.40318 13.086 8.40318C12.5545 8.40318 12.1236 8.83404 12.1236 9.36554C12.1236 9.89704 12.5545 10.3279 13.086 10.3279Z" fill="#4F58B8"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1989 1.66666C5.54949 1.66666 2.5 5.53071 2.5 9.36555C2.5 11.7384 3.34463 13.3185 4.2936 14.4147L2.98731 18.3333L4.64494 18.0018C5.62208 17.8064 6.19259 17.6923 6.76543 17.5914C7.56923 17.4499 8.37762 17.3344 10.3205 17.0568L10.335 17.0548C14.8269 16.413 17.8978 13.2069 17.8978 9.36555C17.8978 5.63967 14.8569 1.66666 10.1989 1.66666ZM4.42472 9.36555C4.42472 6.46384 6.73785 3.59138 10.1989 3.59138C13.6514 3.59138 15.9731 6.55434 15.9731 9.36555C15.9731 12.0612 13.8052 14.6147 10.0628 15.1494C7.64757 15.4944 6.94886 15.5943 5.86047 15.8005L6.4882 13.9174L6.0676 13.4968C5.24483 12.6741 4.42472 11.4637 4.42472 9.36555Z" fill="#4F58B8"></path>
+                      </mask>
+                    </svg><span class="sum">110 answers</span>
+                  </div>
+                  <div class="date-box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99166 1.66666C5.39166 1.66666 1.66666 5.39999 1.66666 9.99999C1.66666 14.6 5.39166 18.3333 9.99166 18.3333C14.6 18.3333 18.3333 14.6 18.3333 9.99999C18.3333 5.39999 14.6 1.66666 9.99166 1.66666ZM9.99999 16.6667C6.31666 16.6667 3.33332 13.6833 3.33332 9.99999C3.33332 6.31666 6.31666 3.33332 9.99999 3.33332C13.6833 3.33332 16.6667 6.31666 16.6667 9.99999C16.6667 13.6833 13.6833 16.6667 9.99999 16.6667ZM9.16666 5.83332H10.4167V10.2083L14.1667 12.4333L13.5417 13.4583L9.16666 10.8333V5.83332Z" fill="#4F58B8"></path>
+                      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="18" height="18">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99166 1.66666C5.39166 1.66666 1.66666 5.39999 1.66666 9.99999C1.66666 14.6 5.39166 18.3333 9.99166 18.3333C14.6 18.3333 18.3333 14.6 18.3333 9.99999C18.3333 5.39999 14.6 1.66666 9.99166 1.66666ZM9.99999 16.6667C6.31666 16.6667 3.33332 13.6833 3.33332 9.99999C3.33332 6.31666 6.31666 3.33332 9.99999 3.33332C13.6833 3.33332 16.6667 6.31666 16.6667 9.99999C16.6667 13.6833 13.6833 16.6667 9.99999 16.6667ZM9.16666 5.83332H10.4167V10.2083L14.1667 12.4333L13.5417 13.4583L9.16666 10.8333V5.83332Z" fill="white"></path>
+                      </mask>
+                    </svg><span class="date">24.01.2019</span>
+                  </div>
+                </div>
+                <div class="btn btn-light btn--outlined btn--icon-right"><span>Go to Question</span>
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8334 5L6.86975 10L5.63978 8.76101L8.50369 5.8761L0.166694 5.8761L0.166694 4.1239L8.50369 4.1239L5.63978 1.23899L6.86975 -2.16966e-07L11.8334 5Z" fill="#1F2569"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="for-block for-block-2">
+              <div class="category-block">
+                <p class="block-title">Category</p><span>Saudi Aramco awards contracts to L&T-led consortium</span>
+              </div>
+              <div class="question-block">
+                <p class="block-title">Question</p><span>What is the purpouse of drilling rings in gas supply industry</span>
+              </div>
+              <div class="for-footer">
+                <div class="info-box">
+                  <div class="answers-box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.3118 10.3279C7.8433 10.3279 8.27416 9.89704 8.27416 9.36554C8.27416 8.83404 7.8433 8.40318 7.3118 8.40318C6.7803 8.40318 6.34944 8.83404 6.34944 9.36554C6.34944 9.89704 6.7803 10.3279 7.3118 10.3279Z" fill="#4F58B8"></path>
+                      <path d="M11.1612 9.36554C11.1612 9.89704 10.7304 10.3279 10.1989 10.3279C9.66739 10.3279 9.23652 9.89704 9.23652 9.36554C9.23652 8.83404 9.66739 8.40318 10.1989 8.40318C10.7304 8.40318 11.1612 8.83404 11.1612 9.36554Z" fill="#4F58B8"></path>
+                      <path d="M13.086 10.3279C13.6175 10.3279 14.0483 9.89704 14.0483 9.36554C14.0483 8.83404 13.6175 8.40318 13.086 8.40318C12.5545 8.40318 12.1236 8.83404 12.1236 9.36554C12.1236 9.89704 12.5545 10.3279 13.086 10.3279Z" fill="#4F58B8"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1989 1.66666C5.54949 1.66666 2.5 5.53071 2.5 9.36555C2.5 11.7384 3.34463 13.3185 4.2936 14.4147L2.98731 18.3333L4.64494 18.0018C5.62208 17.8064 6.19259 17.6923 6.76543 17.5914C7.56923 17.4499 8.37762 17.3344 10.3205 17.0568L10.335 17.0548C14.8269 16.413 17.8978 13.2069 17.8978 9.36555C17.8978 5.63967 14.8569 1.66666 10.1989 1.66666ZM4.42472 9.36555C4.42472 6.46384 6.73786 3.59138 10.1989 3.59138C13.6514 3.59138 15.9731 6.55434 15.9731 9.36555C15.9731 12.0612 13.8052 14.6147 10.0628 15.1494C7.64757 15.4944 6.94886 15.5943 5.86047 15.8005L6.4882 13.9174L6.0676 13.4968C5.24483 12.6741 4.42472 11.4637 4.42472 9.36555Z" fill="#4F58B8"></path>
+                      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="1" width="16" height="18">
+                        <path d="M7.3118 10.3279C7.8433 10.3279 8.27416 9.89704 8.27416 9.36554C8.27416 8.83404 7.8433 8.40318 7.3118 8.40318C6.7803 8.40318 6.34944 8.83404 6.34944 9.36554C6.34944 9.89704 6.7803 10.3279 7.3118 10.3279Z" fill="#4F58B8"></path>
+                        <path d="M11.1612 9.36554C11.1612 9.89704 10.7304 10.3279 10.1989 10.3279C9.66739 10.3279 9.23652 9.89704 9.23652 9.36554C9.23652 8.83404 9.66739 8.40318 10.1989 8.40318C10.7304 8.40318 11.1612 8.83404 11.1612 9.36554Z" fill="#4F58B8"></path>
+                        <path d="M13.086 10.3279C13.6175 10.3279 14.0483 9.89704 14.0483 9.36554C14.0483 8.83404 13.6175 8.40318 13.086 8.40318C12.5545 8.40318 12.1236 8.83404 12.1236 9.36554C12.1236 9.89704 12.5545 10.3279 13.086 10.3279Z" fill="#4F58B8"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1989 1.66666C5.54949 1.66666 2.5 5.53071 2.5 9.36555C2.5 11.7384 3.34463 13.3185 4.2936 14.4147L2.98731 18.3333L4.64494 18.0018C5.62208 17.8064 6.19259 17.6923 6.76543 17.5914C7.56923 17.4499 8.37762 17.3344 10.3205 17.0568L10.335 17.0548C14.8269 16.413 17.8978 13.2069 17.8978 9.36555C17.8978 5.63967 14.8569 1.66666 10.1989 1.66666ZM4.42472 9.36555C4.42472 6.46384 6.73785 3.59138 10.1989 3.59138C13.6514 3.59138 15.9731 6.55434 15.9731 9.36555C15.9731 12.0612 13.8052 14.6147 10.0628 15.1494C7.64757 15.4944 6.94886 15.5943 5.86047 15.8005L6.4882 13.9174L6.0676 13.4968C5.24483 12.6741 4.42472 11.4637 4.42472 9.36555Z" fill="#4F58B8"></path>
+                      </mask>
+                    </svg><span class="sum">110 answers</span>
+                  </div>
+                  <div class="date-box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99166 1.66666C5.39166 1.66666 1.66666 5.39999 1.66666 9.99999C1.66666 14.6 5.39166 18.3333 9.99166 18.3333C14.6 18.3333 18.3333 14.6 18.3333 9.99999C18.3333 5.39999 14.6 1.66666 9.99166 1.66666ZM9.99999 16.6667C6.31666 16.6667 3.33332 13.6833 3.33332 9.99999C3.33332 6.31666 6.31666 3.33332 9.99999 3.33332C13.6833 3.33332 16.6667 6.31666 16.6667 9.99999C16.6667 13.6833 13.6833 16.6667 9.99999 16.6667ZM9.16666 5.83332H10.4167V10.2083L14.1667 12.4333L13.5417 13.4583L9.16666 10.8333V5.83332Z" fill="#4F58B8"></path>
+                      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="18" height="18">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99166 1.66666C5.39166 1.66666 1.66666 5.39999 1.66666 9.99999C1.66666 14.6 5.39166 18.3333 9.99166 18.3333C14.6 18.3333 18.3333 14.6 18.3333 9.99999C18.3333 5.39999 14.6 1.66666 9.99166 1.66666ZM9.99999 16.6667C6.31666 16.6667 3.33332 13.6833 3.33332 9.99999C3.33332 6.31666 6.31666 3.33332 9.99999 3.33332C13.6833 3.33332 16.6667 6.31666 16.6667 9.99999C16.6667 13.6833 13.6833 16.6667 9.99999 16.6667ZM9.16666 5.83332H10.4167V10.2083L14.1667 12.4333L13.5417 13.4583L9.16666 10.8333V5.83332Z" fill="white"></path>
+                      </mask>
+                    </svg><span class="date">24.01.2019</span>
+                  </div>
+                </div>
+                <div class="btn btn-light btn--outlined btn--icon-right"><span>Go to Question</span>
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8334 5L6.86975 10L5.63978 8.76101L8.50369 5.8761L0.166694 5.8761L0.166694 4.1239L8.50369 4.1239L5.63978 1.23899L6.86975 -2.16966e-07L11.8334 5Z" fill="#1F2569"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="for-block for-block-3">
+              <div class="category-block">
+                <p class="block-title">Category</p><span>Saudi Aramco awards contracts to L&T-led consortium</span>
+              </div>
+              <div class="question-block">
+                <p class="block-title">Question</p><span>What is the purpouse of drilling rings in gas supply industry</span>
+              </div>
+              <div class="for-footer">
+                <div class="info-box">
+                  <div class="answers-box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.3118 10.3279C7.8433 10.3279 8.27416 9.89704 8.27416 9.36554C8.27416 8.83404 7.8433 8.40318 7.3118 8.40318C6.7803 8.40318 6.34944 8.83404 6.34944 9.36554C6.34944 9.89704 6.7803 10.3279 7.3118 10.3279Z" fill="#4F58B8"></path>
+                      <path d="M11.1612 9.36554C11.1612 9.89704 10.7304 10.3279 10.1989 10.3279C9.66739 10.3279 9.23652 9.89704 9.23652 9.36554C9.23652 8.83404 9.66739 8.40318 10.1989 8.40318C10.7304 8.40318 11.1612 8.83404 11.1612 9.36554Z" fill="#4F58B8"></path>
+                      <path d="M13.086 10.3279C13.6175 10.3279 14.0483 9.89704 14.0483 9.36554C14.0483 8.83404 13.6175 8.40318 13.086 8.40318C12.5545 8.40318 12.1236 8.83404 12.1236 9.36554C12.1236 9.89704 12.5545 10.3279 13.086 10.3279Z" fill="#4F58B8"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1989 1.66666C5.54949 1.66666 2.5 5.53071 2.5 9.36555C2.5 11.7384 3.34463 13.3185 4.2936 14.4147L2.98731 18.3333L4.64494 18.0018C5.62208 17.8064 6.19259 17.6923 6.76543 17.5914C7.56923 17.4499 8.37762 17.3344 10.3205 17.0568L10.335 17.0548C14.8269 16.413 17.8978 13.2069 17.8978 9.36555C17.8978 5.63967 14.8569 1.66666 10.1989 1.66666ZM4.42472 9.36555C4.42472 6.46384 6.73786 3.59138 10.1989 3.59138C13.6514 3.59138 15.9731 6.55434 15.9731 9.36555C15.9731 12.0612 13.8052 14.6147 10.0628 15.1494C7.64757 15.4944 6.94886 15.5943 5.86047 15.8005L6.4882 13.9174L6.0676 13.4968C5.24483 12.6741 4.42472 11.4637 4.42472 9.36555Z" fill="#4F58B8"></path>
+                      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="1" width="16" height="18">
+                        <path d="M7.3118 10.3279C7.8433 10.3279 8.27416 9.89704 8.27416 9.36554C8.27416 8.83404 7.8433 8.40318 7.3118 8.40318C6.7803 8.40318 6.34944 8.83404 6.34944 9.36554C6.34944 9.89704 6.7803 10.3279 7.3118 10.3279Z" fill="#4F58B8"></path>
+                        <path d="M11.1612 9.36554C11.1612 9.89704 10.7304 10.3279 10.1989 10.3279C9.66739 10.3279 9.23652 9.89704 9.23652 9.36554C9.23652 8.83404 9.66739 8.40318 10.1989 8.40318C10.7304 8.40318 11.1612 8.83404 11.1612 9.36554Z" fill="#4F58B8"></path>
+                        <path d="M13.086 10.3279C13.6175 10.3279 14.0483 9.89704 14.0483 9.36554C14.0483 8.83404 13.6175 8.40318 13.086 8.40318C12.5545 8.40318 12.1236 8.83404 12.1236 9.36554C12.1236 9.89704 12.5545 10.3279 13.086 10.3279Z" fill="#4F58B8"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1989 1.66666C5.54949 1.66666 2.5 5.53071 2.5 9.36555C2.5 11.7384 3.34463 13.3185 4.2936 14.4147L2.98731 18.3333L4.64494 18.0018C5.62208 17.8064 6.19259 17.6923 6.76543 17.5914C7.56923 17.4499 8.37762 17.3344 10.3205 17.0568L10.335 17.0548C14.8269 16.413 17.8978 13.2069 17.8978 9.36555C17.8978 5.63967 14.8569 1.66666 10.1989 1.66666ZM4.42472 9.36555C4.42472 6.46384 6.73785 3.59138 10.1989 3.59138C13.6514 3.59138 15.9731 6.55434 15.9731 9.36555C15.9731 12.0612 13.8052 14.6147 10.0628 15.1494C7.64757 15.4944 6.94886 15.5943 5.86047 15.8005L6.4882 13.9174L6.0676 13.4968C5.24483 12.6741 4.42472 11.4637 4.42472 9.36555Z" fill="#4F58B8"></path>
+                      </mask>
+                    </svg><span class="sum">110 answers</span>
+                  </div>
+                  <div class="date-box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99166 1.66666C5.39166 1.66666 1.66666 5.39999 1.66666 9.99999C1.66666 14.6 5.39166 18.3333 9.99166 18.3333C14.6 18.3333 18.3333 14.6 18.3333 9.99999C18.3333 5.39999 14.6 1.66666 9.99166 1.66666ZM9.99999 16.6667C6.31666 16.6667 3.33332 13.6833 3.33332 9.99999C3.33332 6.31666 6.31666 3.33332 9.99999 3.33332C13.6833 3.33332 16.6667 6.31666 16.6667 9.99999C16.6667 13.6833 13.6833 16.6667 9.99999 16.6667ZM9.16666 5.83332H10.4167V10.2083L14.1667 12.4333L13.5417 13.4583L9.16666 10.8333V5.83332Z" fill="#4F58B8"></path>
+                      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="18" height="18">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99166 1.66666C5.39166 1.66666 1.66666 5.39999 1.66666 9.99999C1.66666 14.6 5.39166 18.3333 9.99166 18.3333C14.6 18.3333 18.3333 14.6 18.3333 9.99999C18.3333 5.39999 14.6 1.66666 9.99166 1.66666ZM9.99999 16.6667C6.31666 16.6667 3.33332 13.6833 3.33332 9.99999C3.33332 6.31666 6.31666 3.33332 9.99999 3.33332C13.6833 3.33332 16.6667 6.31666 16.6667 9.99999C16.6667 13.6833 13.6833 16.6667 9.99999 16.6667ZM9.16666 5.83332H10.4167V10.2083L14.1667 12.4333L13.5417 13.4583L9.16666 10.8333V5.83332Z" fill="white"></path>
+                      </mask>
+                    </svg><span class="date">24.01.2019</span>
+                  </div>
+                </div>
+                <div class="btn btn-light btn--outlined btn--icon-right"><span>Go to Question</span>
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8334 5L6.86975 10L5.63978 8.76101L8.50369 5.8761L0.166694 5.8761L0.166694 4.1239L8.50369 4.1239L5.63978 1.23899L6.86975 -2.16966e-07L11.8334 5Z" fill="#1F2569"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="for-block for-block-4">
+              <div class="category-block">
+                <p class="block-title">Category</p><span>Saudi Aramco awards contracts to L&T-led consortium</span>
+              </div>
+              <div class="question-block">
+                <p class="block-title">Question</p><span>What is the purpouse of drilling rings in gas supply industry</span>
+              </div>
+              <div class="for-footer">
+                <div class="info-box">
+                  <div class="answers-box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.3118 10.3279C7.8433 10.3279 8.27416 9.89704 8.27416 9.36554C8.27416 8.83404 7.8433 8.40318 7.3118 8.40318C6.7803 8.40318 6.34944 8.83404 6.34944 9.36554C6.34944 9.89704 6.7803 10.3279 7.3118 10.3279Z" fill="#4F58B8"></path>
+                      <path d="M11.1612 9.36554C11.1612 9.89704 10.7304 10.3279 10.1989 10.3279C9.66739 10.3279 9.23652 9.89704 9.23652 9.36554C9.23652 8.83404 9.66739 8.40318 10.1989 8.40318C10.7304 8.40318 11.1612 8.83404 11.1612 9.36554Z" fill="#4F58B8"></path>
+                      <path d="M13.086 10.3279C13.6175 10.3279 14.0483 9.89704 14.0483 9.36554C14.0483 8.83404 13.6175 8.40318 13.086 8.40318C12.5545 8.40318 12.1236 8.83404 12.1236 9.36554C12.1236 9.89704 12.5545 10.3279 13.086 10.3279Z" fill="#4F58B8"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1989 1.66666C5.54949 1.66666 2.5 5.53071 2.5 9.36555C2.5 11.7384 3.34463 13.3185 4.2936 14.4147L2.98731 18.3333L4.64494 18.0018C5.62208 17.8064 6.19259 17.6923 6.76543 17.5914C7.56923 17.4499 8.37762 17.3344 10.3205 17.0568L10.335 17.0548C14.8269 16.413 17.8978 13.2069 17.8978 9.36555C17.8978 5.63967 14.8569 1.66666 10.1989 1.66666ZM4.42472 9.36555C4.42472 6.46384 6.73786 3.59138 10.1989 3.59138C13.6514 3.59138 15.9731 6.55434 15.9731 9.36555C15.9731 12.0612 13.8052 14.6147 10.0628 15.1494C7.64757 15.4944 6.94886 15.5943 5.86047 15.8005L6.4882 13.9174L6.0676 13.4968C5.24483 12.6741 4.42472 11.4637 4.42472 9.36555Z" fill="#4F58B8"></path>
+                      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="1" width="16" height="18">
+                        <path d="M7.3118 10.3279C7.8433 10.3279 8.27416 9.89704 8.27416 9.36554C8.27416 8.83404 7.8433 8.40318 7.3118 8.40318C6.7803 8.40318 6.34944 8.83404 6.34944 9.36554C6.34944 9.89704 6.7803 10.3279 7.3118 10.3279Z" fill="#4F58B8"></path>
+                        <path d="M11.1612 9.36554C11.1612 9.89704 10.7304 10.3279 10.1989 10.3279C9.66739 10.3279 9.23652 9.89704 9.23652 9.36554C9.23652 8.83404 9.66739 8.40318 10.1989 8.40318C10.7304 8.40318 11.1612 8.83404 11.1612 9.36554Z" fill="#4F58B8"></path>
+                        <path d="M13.086 10.3279C13.6175 10.3279 14.0483 9.89704 14.0483 9.36554C14.0483 8.83404 13.6175 8.40318 13.086 8.40318C12.5545 8.40318 12.1236 8.83404 12.1236 9.36554C12.1236 9.89704 12.5545 10.3279 13.086 10.3279Z" fill="#4F58B8"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1989 1.66666C5.54949 1.66666 2.5 5.53071 2.5 9.36555C2.5 11.7384 3.34463 13.3185 4.2936 14.4147L2.98731 18.3333L4.64494 18.0018C5.62208 17.8064 6.19259 17.6923 6.76543 17.5914C7.56923 17.4499 8.37762 17.3344 10.3205 17.0568L10.335 17.0548C14.8269 16.413 17.8978 13.2069 17.8978 9.36555C17.8978 5.63967 14.8569 1.66666 10.1989 1.66666ZM4.42472 9.36555C4.42472 6.46384 6.73785 3.59138 10.1989 3.59138C13.6514 3.59138 15.9731 6.55434 15.9731 9.36555C15.9731 12.0612 13.8052 14.6147 10.0628 15.1494C7.64757 15.4944 6.94886 15.5943 5.86047 15.8005L6.4882 13.9174L6.0676 13.4968C5.24483 12.6741 4.42472 11.4637 4.42472 9.36555Z" fill="#4F58B8"></path>
+                      </mask>
+                    </svg><span class="sum">110 answers</span>
+                  </div>
+                  <div class="date-box">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99166 1.66666C5.39166 1.66666 1.66666 5.39999 1.66666 9.99999C1.66666 14.6 5.39166 18.3333 9.99166 18.3333C14.6 18.3333 18.3333 14.6 18.3333 9.99999C18.3333 5.39999 14.6 1.66666 9.99166 1.66666ZM9.99999 16.6667C6.31666 16.6667 3.33332 13.6833 3.33332 9.99999C3.33332 6.31666 6.31666 3.33332 9.99999 3.33332C13.6833 3.33332 16.6667 6.31666 16.6667 9.99999C16.6667 13.6833 13.6833 16.6667 9.99999 16.6667ZM9.16666 5.83332H10.4167V10.2083L14.1667 12.4333L13.5417 13.4583L9.16666 10.8333V5.83332Z" fill="#4F58B8"></path>
+                      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="18" height="18">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99166 1.66666C5.39166 1.66666 1.66666 5.39999 1.66666 9.99999C1.66666 14.6 5.39166 18.3333 9.99166 18.3333C14.6 18.3333 18.3333 14.6 18.3333 9.99999C18.3333 5.39999 14.6 1.66666 9.99166 1.66666ZM9.99999 16.6667C6.31666 16.6667 3.33332 13.6833 3.33332 9.99999C3.33332 6.31666 6.31666 3.33332 9.99999 3.33332C13.6833 3.33332 16.6667 6.31666 16.6667 9.99999C16.6667 13.6833 13.6833 16.6667 9.99999 16.6667ZM9.16666 5.83332H10.4167V10.2083L14.1667 12.4333L13.5417 13.4583L9.16666 10.8333V5.83332Z" fill="white"></path>
+                      </mask>
+                    </svg><span class="date">24.01.2019</span>
+                  </div>
+                </div>
+                <div class="btn btn-light btn--outlined btn--icon-right"><span>Go to Question</span>
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8334 5L6.86975 10L5.63978 8.76101L8.50369 5.8761L0.166694 5.8761L0.166694 4.1239L8.50369 4.1239L5.63978 1.23899L6.86975 -2.16966e-07L11.8334 5Z" fill="#1F2569"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-box">
+            <div class="btn btn-light btn--raised btn--width">Forum</div>
+          </div>
+        </div>
+      </div>
+      <div class="suppliers-container" id="supp">
+        <div class="container">
+          <h1 class="title">Verified suppliers</h1>
+        </div>
+        <div class="slider-one">
+          <div class="icon"><img src="../../img/slider-1.png"/></div>
+          <div class="icon"><img src="../../img/slider-2.png"/></div>
+          <div class="icon"><img src="../../img/slider-3.png"/></div>
+          <div class="icon"><img src="../../img/slider-4.png"/></div>
+          <div class="icon"><img src="../../img/slider-5.png"/></div>
+          <div class="icon"><img src="../../img/slider-6.png"/></div>
+          <div class="icon"><img src="../../img/slider-7.png"/></div>
+          <div class="icon"><img src="../../img/slider-1.png"/></div>
+        </div>
+        <div class="container">
+          <div class="slider-two-box">
+            <div class="testimonials">
+              <svg width="64" height="44" viewBox="0 0 64 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M40.5333 0C36.6059 0 33.4221 3.20317 33.4221 7.15447V23.6098C33.4221 27.5611 36.6059 30.7642 40.5333 30.7642H52.812C52.7882 31.5248 52.524 32.2815 52.0133 32.9114L45.8626 40.4969C44.7259 41.8988 45.7174 44 47.5157 44H52.2477C53.3775 44 54.44 43.4598 55.1101 42.5448L62.6136 32.2993C63.5141 31.0698 63.9999 29.5826 63.9999 28.0553V23.6097L63.9999 23.6098V7.15447C63.9999 3.20317 60.8161 0 56.8888 0H40.5333Z" fill="#FFC519"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.1111 0C3.18375 0 0 3.20317 0 7.15447V23.6098C0 27.5611 3.18375 30.7642 7.1111 30.7642H19.3901C19.3662 31.5248 19.1021 32.2815 18.5914 32.9114L12.4407 40.4969C11.3039 41.8988 12.2954 44 14.0937 44H18.8258C19.9555 44 21.018 43.4598 21.6882 42.5448L29.1917 32.2993C30.0922 31.0698 30.578 29.5826 30.578 28.0553V23.6097L30.5777 23.6098V7.15447C30.5777 3.20317 27.394 0 23.4666 0H7.1111Z" fill="#FFC519"></path>
+              </svg>
+              <h1 class="big-title">Testimonials</h1>
+            </div>
+            <div class="slider-two">
+              <div class="item">
+                <p class="fideback">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
+                  Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar 
+                  sic tempor. Sociis natoque p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                  euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. 
+                  Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, 
+                  nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
+                  sed rhoncus pronin...”
+                </p>
+                <div class="autor-box">
+                  <div class="name">Nesterov Yehor</div>
+                  <div class="adress">General Director, Dannon</div>
+                </div>
+              </div>
+              <div class="item">
+                <p class="fideback">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
+                  Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar 
+                  sic tempor. Sociis natoque p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                  euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. 
+                  Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, 
+                  nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
+                  sed rhoncus pronin...”
+                </p>
+                <div class="autor-box">
+                  <div class="name">Nesterov Yehor</div>
+                  <div class="adress">General Director, Dannon</div>
+                </div>
+              </div>
+              <div class="item">
+                <p class="fideback">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
+                  Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar 
+                  sic tempor. Sociis natoque p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                  euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. 
+                  Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, 
+                  nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
+                  sed rhoncus pronin...”
+                </p>
+                <div class="autor-box">
+                  <div class="name">Nesterov Yehor</div>
+                  <div class="adress">General Director, Dannon</div>
+                </div>
+              </div>
+              <div class="item">
+                <p class="fideback">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
+                  Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar 
+                  sic tempor. Sociis natoque p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                  euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. 
+                  Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, 
+                  nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
+                  sed rhoncus pronin...”
+                </p>
+                <div class="autor-box">
+                  <div class="name">Nesterov Yehor</div>
+                  <div class="adress">General Director, Dannon</div>
+                </div>
+              </div>
+              <div class="item">
+                <p class="fideback">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
+                  Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar 
+                  sic tempor. Sociis natoque p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                  euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. 
+                  Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, 
+                  nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
+                  sed rhoncus pronin...”
+                </p>
+                <div class="autor-box">
+                  <div class="name">Nesterov Yehor</div>
+                  <div class="adress">General Director, Dannon</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="news-container" id="news">
+        <div class="container">
+          <h1 class="title">News and Expert articles</h1>
+          <div class="news-blocks slider-three">
+            <div class="news-item news-1">
+              <div class="content"><img class="news-img" src="../../img/news-1.png" alt="1"/>
+                <div class="news-name">news</div>
+                <div class="news-title">Saudi Aramco awards contracts to L&T-led consortium</div>
+                <div class="news-description">L&T Hydrocarbon Engineering will work with Subsea 7 on projects within Aramco's Zuluf and Berri fields</div>
+                <div class="news-footer">
+                  <div class="name">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M11.9921 3C10.2448 3.00332 8.53606 3.51471 7.07416 4.47189C5.61226 5.42906 4.46026 6.7907 3.75848 8.39096C3.05669 9.99122 2.83541 11.761 3.12159 13.4848C3.40777 15.2086 4.18906 16.812 5.37029 18.0996C6.21395 19.0141 7.23787 19.7439 8.37755 20.2431C9.51722 20.7423 10.7479 21 11.9921 21C13.2363 21 14.4671 20.7423 15.6067 20.2431C16.7464 19.7439 17.7703 19.0141 18.614 18.0996C19.7952 16.812 20.5765 15.2086 20.8627 13.4848C21.1489 11.761 20.9276 9.99122 20.2258 8.39096C19.524 6.7907 18.372 5.42906 16.9101 4.47189C15.4482 3.51471 13.7395 3.00332 11.9921 3ZM11.9921 19.2168C10.1258 19.2139 8.33338 18.4873 6.99197 17.1897C7.39923 16.1982 8.09204 15.3502 8.98236 14.7534C9.87267 14.1567 10.9203 13.838 11.9921 13.838C13.064 13.838 14.1116 14.1567 15.0019 14.7534C15.8922 15.3502 16.585 16.1982 16.9923 17.1897C15.6509 18.4873 13.8584 19.2139 11.9921 19.2168ZM10.1903 10.2074C10.1903 9.85107 10.296 9.5027 10.4939 9.20639C10.6919 8.91007 10.9733 8.67912 11.3026 8.54275C11.6318 8.40637 11.9941 8.37068 12.3437 8.44021C12.6932 8.50973 13.0143 8.68135 13.2662 8.93334C13.5182 9.18534 13.6899 9.5064 13.7594 9.85592C13.8289 10.2055 13.7932 10.5677 13.6568 10.897C13.5205 11.2262 13.2895 11.5077 12.9932 11.7056C12.6969 11.9036 12.3485 12.0093 11.9921 12.0093C11.5143 12.0093 11.0559 11.8195 10.718 11.4816C10.3801 11.1436 10.1903 10.6853 10.1903 10.2074ZM18.2176 15.613C17.4126 14.2362 16.1737 13.1652 14.6949 12.5679C15.1537 12.0477 15.4526 11.4063 15.5557 10.7205C15.6589 10.0347 15.5621 9.33365 15.2767 8.70154C14.9914 8.06943 14.5297 7.53309 13.9471 7.15687C13.3645 6.78064 12.6857 6.58052 11.9921 6.58052C11.2986 6.58052 10.6198 6.78064 10.0372 7.15687C9.45459 7.53309 8.99291 8.06943 8.70757 8.70154C8.42222 9.33365 8.32534 10.0347 8.42853 10.7205C8.53173 11.4063 8.83062 12.0477 9.28935 12.5679C7.81055 13.1652 6.57166 14.2362 5.7667 15.613C5.12519 14.5203 4.78624 13.2764 4.78469 12.0093C4.78469 10.0978 5.54404 8.26453 6.8957 6.91288C8.24736 5.56122 10.0806 4.80186 11.9921 4.80186C13.9037 4.80186 15.7369 5.56122 17.0886 6.91288C18.4402 8.26453 19.1996 10.0978 19.1996 12.0093C19.198 13.2764 18.8591 14.5203 18.2176 15.613Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>Adam Boyshik</span>
+                  </div>
+                  <div class="num">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M20.9249 11.65C19.1075 7.54625 15.6887 5 12 5C8.31129 5 4.89248 7.54625 3.07511 11.65C3.02557 11.7604 3 11.8795 3 12C3 12.1205 3.02557 12.2396 3.07511 12.35C4.89248 16.4537 8.31129 19 12 19C15.6887 19 19.1075 16.4537 20.9249 12.35C20.9744 12.2396 21 12.1205 21 12C21 11.8795 20.9744 11.7604 20.9249 11.65ZM12 17.25C9.139 17.25 6.44893 15.2463 4.89248 12C6.44893 8.75375 9.139 6.75 12 6.75C14.861 6.75 17.5511 8.75375 19.1075 12C17.5511 15.2463 14.861 17.25 12 17.25ZM12 8.5C11.2882 8.5 10.5925 8.70527 10.0006 9.08986C9.40883 9.47444 8.94757 10.0211 8.67519 10.6606C8.40281 11.3001 8.33154 12.0039 8.4704 12.6828C8.60926 13.3617 8.95201 13.9854 9.4553 14.4749C9.9586 14.9644 10.5998 15.2977 11.2979 15.4327C11.996 15.5678 12.7196 15.4985 13.3772 15.2336C14.0348 14.9687 14.5968 14.5201 14.9922 13.9445C15.3877 13.3689 15.5987 12.6922 15.5987 12C15.5987 11.0717 15.2196 10.1815 14.5447 9.52513C13.8698 8.86875 12.9544 8.5 12 8.5ZM12 13.75C11.6441 13.75 11.2962 13.6474 11.0003 13.4551C10.7044 13.2628 10.4738 12.9895 10.3376 12.6697C10.2014 12.3499 10.1658 11.9981 10.2352 11.6586C10.3046 11.3191 10.476 11.0073 10.7277 10.7626C10.9793 10.5178 11.2999 10.3511 11.649 10.2836C11.998 10.2161 12.3598 10.2508 12.6886 10.3832C13.0174 10.5157 13.2984 10.74 13.4961 11.0278C13.6938 11.3155 13.7994 11.6539 13.7994 12C13.7994 12.4641 13.6098 12.9092 13.2723 13.2374C12.9349 13.5656 12.4772 13.75 12 13.75Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>56251</span>
+                  </div>
+                  <div class="date">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M12 4C10.4177 4 8.87103 4.46919 7.55543 5.34824C6.23984 6.22729 5.21446 7.47672 4.60896 8.93853C4.00346 10.4003 3.84503 12.0089 4.15371 13.5607C4.4624 15.1126 5.22432 16.538 6.34314 17.6569C7.46196 18.7757 8.88742 19.5376 10.4393 19.8463C11.9911 20.155 13.5997 19.9965 15.0615 19.391C16.5233 18.7855 17.7727 17.7602 18.6517 16.4446C19.5308 15.129 20 13.5822 20 12C20 10.9494 19.7931 9.90914 19.391 8.93853C18.989 7.96793 18.3997 7.08601 17.6568 6.34315C16.914 5.60028 16.0321 5.011 15.0615 4.60896C14.0909 4.20693 13.0506 4 12 4ZM12 18.4C10.7342 18.4 9.49682 18.0246 8.44434 17.3214C7.39187 16.6182 6.57157 15.6186 6.08717 14.4492C5.60277 13.2797 5.47602 11.9929 5.72297 10.7514C5.96992 9.50994 6.57946 8.36957 7.47451 7.47452C8.36957 6.57946 9.50994 5.96992 10.7514 5.72297C11.9929 5.47603 13.2797 5.60277 14.4492 6.08717C15.6186 6.57157 16.6182 7.39187 17.3214 8.44435C18.0246 9.49682 18.4 10.7342 18.4 12C18.4 13.6974 17.7257 15.3252 16.5255 16.5255C15.3252 17.7257 13.6974 18.4 12 18.4ZM12 7.2C11.7878 7.2 11.5843 7.28428 11.4343 7.43431C11.2843 7.58434 11.2 7.78783 11.2 8V11.536L9.51999 12.504C9.36588 12.5913 9.24511 12.7273 9.17662 12.8907C9.10813 13.0541 9.09579 13.2355 9.14155 13.4067C9.18731 13.5778 9.28856 13.7289 9.42944 13.8363C9.57032 13.9436 9.74286 14.0012 9.91999 14C10.0601 14.001 10.1981 13.9651 10.32 13.896L12.4 12.696L12.472 12.624L12.6 12.52C12.6313 12.4804 12.6581 12.4375 12.68 12.392C12.7061 12.349 12.7275 12.3035 12.744 12.256C12.7658 12.2051 12.7793 12.1511 12.784 12.096L12.8 12V8C12.8 7.78783 12.7157 7.58434 12.5657 7.43431C12.4157 7.28428 12.2122 7.2 12 7.2Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>24.01.2019</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news-item news-2">
+              <div class="content"><img class="news-img" src="../../img/news-2.png" alt="1"/>
+                <div class="news-name">news</div>
+                <div class="news-title">Saudi Aramco awards contracts to L&T-led consortium</div>
+                <div class="news-description">L&T Hydrocarbon Engineering will work with Subsea 7 on projects within Aramco's Zuluf and Berri fields</div>
+                <div class="news-footer">
+                  <div class="name">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M11.9921 3C10.2448 3.00332 8.53606 3.51471 7.07416 4.47189C5.61226 5.42906 4.46026 6.7907 3.75848 8.39096C3.05669 9.99122 2.83541 11.761 3.12159 13.4848C3.40777 15.2086 4.18906 16.812 5.37029 18.0996C6.21395 19.0141 7.23787 19.7439 8.37755 20.2431C9.51722 20.7423 10.7479 21 11.9921 21C13.2363 21 14.4671 20.7423 15.6067 20.2431C16.7464 19.7439 17.7703 19.0141 18.614 18.0996C19.7952 16.812 20.5765 15.2086 20.8627 13.4848C21.1489 11.761 20.9276 9.99122 20.2258 8.39096C19.524 6.7907 18.372 5.42906 16.9101 4.47189C15.4482 3.51471 13.7395 3.00332 11.9921 3ZM11.9921 19.2168C10.1258 19.2139 8.33338 18.4873 6.99197 17.1897C7.39923 16.1982 8.09204 15.3502 8.98236 14.7534C9.87267 14.1567 10.9203 13.838 11.9921 13.838C13.064 13.838 14.1116 14.1567 15.0019 14.7534C15.8922 15.3502 16.585 16.1982 16.9923 17.1897C15.6509 18.4873 13.8584 19.2139 11.9921 19.2168ZM10.1903 10.2074C10.1903 9.85107 10.296 9.5027 10.4939 9.20639C10.6919 8.91007 10.9733 8.67912 11.3026 8.54275C11.6318 8.40637 11.9941 8.37068 12.3437 8.44021C12.6932 8.50973 13.0143 8.68135 13.2662 8.93334C13.5182 9.18534 13.6899 9.5064 13.7594 9.85592C13.8289 10.2055 13.7932 10.5677 13.6568 10.897C13.5205 11.2262 13.2895 11.5077 12.9932 11.7056C12.6969 11.9036 12.3485 12.0093 11.9921 12.0093C11.5143 12.0093 11.0559 11.8195 10.718 11.4816C10.3801 11.1436 10.1903 10.6853 10.1903 10.2074ZM18.2176 15.613C17.4126 14.2362 16.1737 13.1652 14.6949 12.5679C15.1537 12.0477 15.4526 11.4063 15.5557 10.7205C15.6589 10.0347 15.5621 9.33365 15.2767 8.70154C14.9914 8.06943 14.5297 7.53309 13.9471 7.15687C13.3645 6.78064 12.6857 6.58052 11.9921 6.58052C11.2986 6.58052 10.6198 6.78064 10.0372 7.15687C9.45459 7.53309 8.99291 8.06943 8.70757 8.70154C8.42222 9.33365 8.32534 10.0347 8.42853 10.7205C8.53173 11.4063 8.83062 12.0477 9.28935 12.5679C7.81055 13.1652 6.57166 14.2362 5.7667 15.613C5.12519 14.5203 4.78624 13.2764 4.78469 12.0093C4.78469 10.0978 5.54404 8.26453 6.8957 6.91288C8.24736 5.56122 10.0806 4.80186 11.9921 4.80186C13.9037 4.80186 15.7369 5.56122 17.0886 6.91288C18.4402 8.26453 19.1996 10.0978 19.1996 12.0093C19.198 13.2764 18.8591 14.5203 18.2176 15.613Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>Adam Boyshik</span>
+                  </div>
+                  <div class="num">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M20.9249 11.65C19.1075 7.54625 15.6887 5 12 5C8.31129 5 4.89248 7.54625 3.07511 11.65C3.02557 11.7604 3 11.8795 3 12C3 12.1205 3.02557 12.2396 3.07511 12.35C4.89248 16.4537 8.31129 19 12 19C15.6887 19 19.1075 16.4537 20.9249 12.35C20.9744 12.2396 21 12.1205 21 12C21 11.8795 20.9744 11.7604 20.9249 11.65ZM12 17.25C9.139 17.25 6.44893 15.2463 4.89248 12C6.44893 8.75375 9.139 6.75 12 6.75C14.861 6.75 17.5511 8.75375 19.1075 12C17.5511 15.2463 14.861 17.25 12 17.25ZM12 8.5C11.2882 8.5 10.5925 8.70527 10.0006 9.08986C9.40883 9.47444 8.94757 10.0211 8.67519 10.6606C8.40281 11.3001 8.33154 12.0039 8.4704 12.6828C8.60926 13.3617 8.95201 13.9854 9.4553 14.4749C9.9586 14.9644 10.5998 15.2977 11.2979 15.4327C11.996 15.5678 12.7196 15.4985 13.3772 15.2336C14.0348 14.9687 14.5968 14.5201 14.9922 13.9445C15.3877 13.3689 15.5987 12.6922 15.5987 12C15.5987 11.0717 15.2196 10.1815 14.5447 9.52513C13.8698 8.86875 12.9544 8.5 12 8.5ZM12 13.75C11.6441 13.75 11.2962 13.6474 11.0003 13.4551C10.7044 13.2628 10.4738 12.9895 10.3376 12.6697C10.2014 12.3499 10.1658 11.9981 10.2352 11.6586C10.3046 11.3191 10.476 11.0073 10.7277 10.7626C10.9793 10.5178 11.2999 10.3511 11.649 10.2836C11.998 10.2161 12.3598 10.2508 12.6886 10.3832C13.0174 10.5157 13.2984 10.74 13.4961 11.0278C13.6938 11.3155 13.7994 11.6539 13.7994 12C13.7994 12.4641 13.6098 12.9092 13.2723 13.2374C12.9349 13.5656 12.4772 13.75 12 13.75Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>56251</span>
+                  </div>
+                  <div class="date">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M12 4C10.4177 4 8.87103 4.46919 7.55543 5.34824C6.23984 6.22729 5.21446 7.47672 4.60896 8.93853C4.00346 10.4003 3.84503 12.0089 4.15371 13.5607C4.4624 15.1126 5.22432 16.538 6.34314 17.6569C7.46196 18.7757 8.88742 19.5376 10.4393 19.8463C11.9911 20.155 13.5997 19.9965 15.0615 19.391C16.5233 18.7855 17.7727 17.7602 18.6517 16.4446C19.5308 15.129 20 13.5822 20 12C20 10.9494 19.7931 9.90914 19.391 8.93853C18.989 7.96793 18.3997 7.08601 17.6568 6.34315C16.914 5.60028 16.0321 5.011 15.0615 4.60896C14.0909 4.20693 13.0506 4 12 4ZM12 18.4C10.7342 18.4 9.49682 18.0246 8.44434 17.3214C7.39187 16.6182 6.57157 15.6186 6.08717 14.4492C5.60277 13.2797 5.47602 11.9929 5.72297 10.7514C5.96992 9.50994 6.57946 8.36957 7.47451 7.47452C8.36957 6.57946 9.50994 5.96992 10.7514 5.72297C11.9929 5.47603 13.2797 5.60277 14.4492 6.08717C15.6186 6.57157 16.6182 7.39187 17.3214 8.44435C18.0246 9.49682 18.4 10.7342 18.4 12C18.4 13.6974 17.7257 15.3252 16.5255 16.5255C15.3252 17.7257 13.6974 18.4 12 18.4ZM12 7.2C11.7878 7.2 11.5843 7.28428 11.4343 7.43431C11.2843 7.58434 11.2 7.78783 11.2 8V11.536L9.51999 12.504C9.36588 12.5913 9.24511 12.7273 9.17662 12.8907C9.10813 13.0541 9.09579 13.2355 9.14155 13.4067C9.18731 13.5778 9.28856 13.7289 9.42944 13.8363C9.57032 13.9436 9.74286 14.0012 9.91999 14C10.0601 14.001 10.1981 13.9651 10.32 13.896L12.4 12.696L12.472 12.624L12.6 12.52C12.6313 12.4804 12.6581 12.4375 12.68 12.392C12.7061 12.349 12.7275 12.3035 12.744 12.256C12.7658 12.2051 12.7793 12.1511 12.784 12.096L12.8 12V8C12.8 7.78783 12.7157 7.58434 12.5657 7.43431C12.4157 7.28428 12.2122 7.2 12 7.2Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>24.01.2019</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news-item news-3">
+              <div class="content"><img class="news-img" src="../../img/news-3.png" alt="1"/>
+                <div class="news-name">news</div>
+                <div class="news-title">Saudi Aramco awards contracts to L&T-led consortium</div>
+                <div class="news-description">L&T Hydrocarbon Engineering will work with Subsea 7 on projects within Aramco's Zuluf and Berri fields</div>
+                <div class="news-footer">
+                  <div class="name">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M11.9921 3C10.2448 3.00332 8.53606 3.51471 7.07416 4.47189C5.61226 5.42906 4.46026 6.7907 3.75848 8.39096C3.05669 9.99122 2.83541 11.761 3.12159 13.4848C3.40777 15.2086 4.18906 16.812 5.37029 18.0996C6.21395 19.0141 7.23787 19.7439 8.37755 20.2431C9.51722 20.7423 10.7479 21 11.9921 21C13.2363 21 14.4671 20.7423 15.6067 20.2431C16.7464 19.7439 17.7703 19.0141 18.614 18.0996C19.7952 16.812 20.5765 15.2086 20.8627 13.4848C21.1489 11.761 20.9276 9.99122 20.2258 8.39096C19.524 6.7907 18.372 5.42906 16.9101 4.47189C15.4482 3.51471 13.7395 3.00332 11.9921 3ZM11.9921 19.2168C10.1258 19.2139 8.33338 18.4873 6.99197 17.1897C7.39923 16.1982 8.09204 15.3502 8.98236 14.7534C9.87267 14.1567 10.9203 13.838 11.9921 13.838C13.064 13.838 14.1116 14.1567 15.0019 14.7534C15.8922 15.3502 16.585 16.1982 16.9923 17.1897C15.6509 18.4873 13.8584 19.2139 11.9921 19.2168ZM10.1903 10.2074C10.1903 9.85107 10.296 9.5027 10.4939 9.20639C10.6919 8.91007 10.9733 8.67912 11.3026 8.54275C11.6318 8.40637 11.9941 8.37068 12.3437 8.44021C12.6932 8.50973 13.0143 8.68135 13.2662 8.93334C13.5182 9.18534 13.6899 9.5064 13.7594 9.85592C13.8289 10.2055 13.7932 10.5677 13.6568 10.897C13.5205 11.2262 13.2895 11.5077 12.9932 11.7056C12.6969 11.9036 12.3485 12.0093 11.9921 12.0093C11.5143 12.0093 11.0559 11.8195 10.718 11.4816C10.3801 11.1436 10.1903 10.6853 10.1903 10.2074ZM18.2176 15.613C17.4126 14.2362 16.1737 13.1652 14.6949 12.5679C15.1537 12.0477 15.4526 11.4063 15.5557 10.7205C15.6589 10.0347 15.5621 9.33365 15.2767 8.70154C14.9914 8.06943 14.5297 7.53309 13.9471 7.15687C13.3645 6.78064 12.6857 6.58052 11.9921 6.58052C11.2986 6.58052 10.6198 6.78064 10.0372 7.15687C9.45459 7.53309 8.99291 8.06943 8.70757 8.70154C8.42222 9.33365 8.32534 10.0347 8.42853 10.7205C8.53173 11.4063 8.83062 12.0477 9.28935 12.5679C7.81055 13.1652 6.57166 14.2362 5.7667 15.613C5.12519 14.5203 4.78624 13.2764 4.78469 12.0093C4.78469 10.0978 5.54404 8.26453 6.8957 6.91288C8.24736 5.56122 10.0806 4.80186 11.9921 4.80186C13.9037 4.80186 15.7369 5.56122 17.0886 6.91288C18.4402 8.26453 19.1996 10.0978 19.1996 12.0093C19.198 13.2764 18.8591 14.5203 18.2176 15.613Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>Adam Boyshik</span>
+                  </div>
+                  <div class="num">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M20.9249 11.65C19.1075 7.54625 15.6887 5 12 5C8.31129 5 4.89248 7.54625 3.07511 11.65C3.02557 11.7604 3 11.8795 3 12C3 12.1205 3.02557 12.2396 3.07511 12.35C4.89248 16.4537 8.31129 19 12 19C15.6887 19 19.1075 16.4537 20.9249 12.35C20.9744 12.2396 21 12.1205 21 12C21 11.8795 20.9744 11.7604 20.9249 11.65ZM12 17.25C9.139 17.25 6.44893 15.2463 4.89248 12C6.44893 8.75375 9.139 6.75 12 6.75C14.861 6.75 17.5511 8.75375 19.1075 12C17.5511 15.2463 14.861 17.25 12 17.25ZM12 8.5C11.2882 8.5 10.5925 8.70527 10.0006 9.08986C9.40883 9.47444 8.94757 10.0211 8.67519 10.6606C8.40281 11.3001 8.33154 12.0039 8.4704 12.6828C8.60926 13.3617 8.95201 13.9854 9.4553 14.4749C9.9586 14.9644 10.5998 15.2977 11.2979 15.4327C11.996 15.5678 12.7196 15.4985 13.3772 15.2336C14.0348 14.9687 14.5968 14.5201 14.9922 13.9445C15.3877 13.3689 15.5987 12.6922 15.5987 12C15.5987 11.0717 15.2196 10.1815 14.5447 9.52513C13.8698 8.86875 12.9544 8.5 12 8.5ZM12 13.75C11.6441 13.75 11.2962 13.6474 11.0003 13.4551C10.7044 13.2628 10.4738 12.9895 10.3376 12.6697C10.2014 12.3499 10.1658 11.9981 10.2352 11.6586C10.3046 11.3191 10.476 11.0073 10.7277 10.7626C10.9793 10.5178 11.2999 10.3511 11.649 10.2836C11.998 10.2161 12.3598 10.2508 12.6886 10.3832C13.0174 10.5157 13.2984 10.74 13.4961 11.0278C13.6938 11.3155 13.7994 11.6539 13.7994 12C13.7994 12.4641 13.6098 12.9092 13.2723 13.2374C12.9349 13.5656 12.4772 13.75 12 13.75Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>56251</span>
+                  </div>
+                  <div class="date">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.4">
+                        <path d="M12 4C10.4177 4 8.87103 4.46919 7.55543 5.34824C6.23984 6.22729 5.21446 7.47672 4.60896 8.93853C4.00346 10.4003 3.84503 12.0089 4.15371 13.5607C4.4624 15.1126 5.22432 16.538 6.34314 17.6569C7.46196 18.7757 8.88742 19.5376 10.4393 19.8463C11.9911 20.155 13.5997 19.9965 15.0615 19.391C16.5233 18.7855 17.7727 17.7602 18.6517 16.4446C19.5308 15.129 20 13.5822 20 12C20 10.9494 19.7931 9.90914 19.391 8.93853C18.989 7.96793 18.3997 7.08601 17.6568 6.34315C16.914 5.60028 16.0321 5.011 15.0615 4.60896C14.0909 4.20693 13.0506 4 12 4ZM12 18.4C10.7342 18.4 9.49682 18.0246 8.44434 17.3214C7.39187 16.6182 6.57157 15.6186 6.08717 14.4492C5.60277 13.2797 5.47602 11.9929 5.72297 10.7514C5.96992 9.50994 6.57946 8.36957 7.47451 7.47452C8.36957 6.57946 9.50994 5.96992 10.7514 5.72297C11.9929 5.47603 13.2797 5.60277 14.4492 6.08717C15.6186 6.57157 16.6182 7.39187 17.3214 8.44435C18.0246 9.49682 18.4 10.7342 18.4 12C18.4 13.6974 17.7257 15.3252 16.5255 16.5255C15.3252 17.7257 13.6974 18.4 12 18.4ZM12 7.2C11.7878 7.2 11.5843 7.28428 11.4343 7.43431C11.2843 7.58434 11.2 7.78783 11.2 8V11.536L9.51999 12.504C9.36588 12.5913 9.24511 12.7273 9.17662 12.8907C9.10813 13.0541 9.09579 13.2355 9.14155 13.4067C9.18731 13.5778 9.28856 13.7289 9.42944 13.8363C9.57032 13.9436 9.74286 14.0012 9.91999 14C10.0601 14.001 10.1981 13.9651 10.32 13.896L12.4 12.696L12.472 12.624L12.6 12.52C12.6313 12.4804 12.6581 12.4375 12.68 12.392C12.7061 12.349 12.7275 12.3035 12.744 12.256C12.7658 12.2051 12.7793 12.1511 12.784 12.096L12.8 12V8C12.8 7.78783 12.7157 7.58434 12.5657 7.43431C12.4157 7.28428 12.2122 7.2 12 7.2Z" fill="#4F58B8"></path>
+                      </g>
+                    </svg><span>24.01.2019</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="on_footer-container" id="art">
+        <div class="container">
+          <div class="flex">
+            <div class="reg-center">
+              <h1 class="title white">Register your company and grow your business</h1>
+              <div class="register-info"><span>Understand that growth for your business is and how o improve your succes rate. Show up in front of buyers at the right time with the right offering.</span>
+                <div class="btn btn--mini btn-dark btn--raised dark--text">Register your company now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="logo">
+            <svg width="156" height="40" viewBox="0 0 156 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path d="M17.2327 0V17.0649L20.2539 19.1144L32.8246 10.583L17.2327 0Z" fill="#7F87C0"></path>
+                <path d="M16.0358 17.0649V0L0.441711 10.583L13.0168 19.1144L16.0358 17.0649Z" fill="#676DB0"></path>
+                <path d="M21.3206 19.8388L17.2327 22.6126V40L33.2685 29.121V27.9483V11.7314L21.3206 19.8388Z" fill="#34388C"></path>
+                <path d="M0 11.7292V27.9483V29.1188L16.0358 40V22.6104L11.9501 19.8388L0 11.7292Z" fill="#34388C"></path>
+                <path d="M43.5071 27.4293V33.0101H52.4161L52.8269 32.7032V24.6643L52.4161 24.3573H38.9156V20.7729H55.2739C55.5483 20.7791 55.8166 20.8551 56.0535 20.9938C56.3194 21.1394 56.5614 21.3249 56.7712 21.5437C56.9808 21.7624 57.1612 22.0074 57.3079 22.2725C57.4443 22.5015 57.5203 22.7614 57.5287 23.0278V33.7014C57.5404 34.1826 57.4571 34.6614 57.2836 35.1104C57.142 35.472 56.9191 35.7962 56.6321 36.0578C56.3639 36.2931 56.0505 36.4712 55.7111 36.5813C55.3635 36.6926 55.0006 36.7484 54.6356 36.7469H38.9156V27.4293H43.5071Z" fill="#4B4C55"></path>
+                <path d="M80.4881 36.7469H75.7001L74.4987 34.5958H65.0773L63.8737 36.7469H59.0349L67.5353 20.7729H72.0649L80.4881 36.7469ZM72.659 30.8856L69.7107 25.6625L67.0473 30.8856H72.659Z" fill="#4B4C55"></path>
+                <path d="M82.076 20.7729H86.5724V33.1647H98.655V36.7469H82.076V20.7729Z" fill="#4B4C55"></path>
+                <path d="M100.866 20.7729H117.454V24.3573H105.371V26.9677H111.72V30.6559H105.371V33.1647H117.454V36.7469H100.866V20.7729Z" fill="#4B4C55"></path>
+                <path d="M119.655 20.7729H136.246V24.3573H124.161V26.9677H130.521V30.6559H124.161V33.1647H136.246V36.7469H119.655V20.7729Z" fill="#4B4C55"></path>
+                <path d="M138.447 20.7729H142.953V33.1647H155.035V36.7469H138.447V20.7729Z" fill="#4B4C55"></path>
+              </g>
+              <defs>
+                <clippath id="clip0"></clippath>
+                <rect width="155.035" height="40" fill="white"></rect>
+              </defs>
+            </svg>
+          </div>
+          <div class="footer-body">
+            <div class="section about">
+              <div class="title"><span>About Us</span></div>
+              <div class="description">
+                Daleel is a portal that provides unique business intelligence to make the best decisions 
+                and allows exchange of knowledge that our industry needs to best meet its requirements.
+              </div>
+            </div>
+            <div class="section resources">
+              <div class="title"><span>Resources</span></div>
+              <div class="row">
+                <ul class="list">
+                  <li><a href="#">Our Story and Why We Do It</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <ul class="list">
+                  <li><a href="#">Terms Of Use</a></li>
+                  <li><a href="#">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="section newsletter">
+              <div class="title"><span>Newsletter</span></div>
+              <div class="subscribe-box"><input class="search-text" type="text" name="search" placeholder="Subscribe" />
+                <input type="submit" value="Subscribe"/>
+              </div>
+              <div class="data-box">© 2015 All rights reserved Daleel</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="menu-wrap">
+        <div class="content">
+          <ul class="menu">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Add company</a></li>
+          </ul>
+          <svg class="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 357 357" style="enable-background:new 0 0 357 357;" xml:space="preserve">
+            <g>
+              <g></g>
+              <g id="close">
+                <polygon class="active-path" points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3     214.2,178.5   " data-original="#000000" data-old_color="#F8EEEE" fill="#FBFAFA"></polygon>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <svg class="up" height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+        <path d="m256 512c-68.378906 0-132.667969-26.628906-181.019531-74.980469-48.351563-48.351562-74.980469-112.640625-74.980469-181.019531s26.628906-132.667969 74.980469-181.019531c48.351562-48.351563 112.640625-74.980469 181.019531-74.980469s132.667969 26.628906 181.019531 74.980469c48.351563 48.351562 74.980469 112.640625 74.980469 181.019531s-26.628906 132.667969-74.980469 181.019531c-48.351562 48.351563-112.640625 74.980469-181.019531 74.980469zm0-472c-119.101562 0-216 96.898438-216 216s96.898438 216 216 216 216-96.898438 216-216-96.898438-216-216-216zm138.285156 250-138.285156-138.285156-138.285156 138.285156 28.285156 28.285156 110-110 110 110zm0 0"></path>
+      </svg>
+    </div>
+    <script src="../plugins/jquery/dist/jquery.min.js"></script>
+    <script src="../plugins/slick.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

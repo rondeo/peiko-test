@@ -1,0 +1,137 @@
+.head-container {
+  width: 100%;
+  padding-top: 26px;
+  background-image: url('../img/hero.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-list {
+  list-style: none;
+  display: flex;
+  li {
+    padding-right: 20px;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.search-box {
+  width: 100%;
+  min-width: 355px;
+  position: relative;
+  .search-text {
+    width: 100%;
+    padding: 15px 20px;
+    padding-right: 55px;
+    border: 1px solid rgba(158, 168, 171, 0.14);
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    &::placeholder {
+      color: #9EA8AB;
+    }
+  }
+  .search-btn {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+.description-box {
+  color: white;
+  padding: 100px 0 150px 0;
+  display: flex;
+  justify-content: flex-end;
+  .content {
+    max-width: 426px;
+    margin-right: 110px;
+    h1 {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 36px;
+      margin-bottom: 30px;
+    }
+    span {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+}
+
+.header-navbar {
+  display: flex;
+  background-color: #1F2569;
+  .items-row {
+    display: flex;
+    .navbar-item {
+      width: 20%;
+      cursor: pointer;
+      text-align: center;
+      padding: 55px 0;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      color: white;
+      &:nth-child(1) {
+        background-color: #2E368F;
+      }
+      &:nth-child(2) {
+        background-color: #39419F;
+      }
+      &:nth-child(3) {
+        background-color: #434BA6;
+      }
+      &:nth-child(4) {
+        background-color: #4D55AE;
+      }
+      &:nth-child(5) {
+        background-color: #5A61B7;
+      }
+    }
+  }
+}
+
+.burger {
+  display: none;
+  margin-top: 18px;
+  opacity: 0;
+  animation: burger 1.5s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes burger {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.up {
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+  cursor: pointer;
+  display: none;
+}

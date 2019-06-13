@@ -1,0 +1,27 @@
+html(lang="en")
+    head
+        title Step 1
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet" href="plugins/slick.css")
+        link(rel="stylesheet" href="plugins/slick-theme.css")
+        link(rel="stylesheet" href="css/style.css")
+    body
+        .container-fluid
+            include modules/head
+            include modules/intelligence
+            include modules/forum
+            include modules/suppliers
+            include modules/news
+            include modules/on_footer
+            include modules/footer
+
+            include modules/mobile_menu
+            svg.up(height='512pt', viewBox='0 0 512 512', width='512pt', xmlns='http://www.w3.org/2000/svg')
+                path(d='m256 512c-68.378906 0-132.667969-26.628906-181.019531-74.980469-48.351563-48.351562-74.980469-112.640625-74.980469-181.019531s26.628906-132.667969 74.980469-181.019531c48.351562-48.351563 112.640625-74.980469 181.019531-74.980469s132.667969 26.628906 181.019531 74.980469c48.351563 48.351562 74.980469 112.640625 74.980469 181.019531s-26.628906 132.667969-74.980469 181.019531c-48.351562 48.351563-112.640625 74.980469-181.019531 74.980469zm0-472c-119.101562 0-216 96.898438-216 216s96.898438 216 216 216 216-96.898438 216-216-96.898438-216-216-216zm138.285156 250-138.285156-138.285156-138.285156 138.285156 28.285156 28.285156 110-110 110 110zm0 0')
+
+
+        script(src="../plugins/jquery/dist/jquery.min.js")
+        script(src="../plugins/slick.min.js")
+        script(src="../js/main.js")

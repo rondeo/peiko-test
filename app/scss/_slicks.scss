@@ -1,0 +1,113 @@
+.slick-prev, .slick-next {
+    height: 24px;
+    width: 24px;
+    z-index: 2;
+    opacity: 0.5;
+    transition: 0.2s;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.slick-prev {
+    background-image: url('../img/arrows.svg');
+    transform-origin: center;
+    transform: rotateZ(90deg);
+}
+.slick-next {
+    background-image: url('../img/arrows.svg');
+    transform-origin: center;
+    transform: rotateZ(-90deg);
+}
+
+.slick-dots {
+    bottom: -13px;
+    width: max-content;
+    right: 0;
+    li {
+        margin: 0 -3px;
+        button:before {
+            font-size: 30px;
+        }
+        &.slick-active {
+            button:before {
+                color: #2E368F;
+            }
+        }
+    }
+}
+
+.slider-one {
+    .slick-prev {
+        right: 97px;
+    }
+    .slick-next {
+        right: 57px;
+    }
+    .slick-prev, .slick-next {
+        top: -75px;
+    }
+}
+.slider-two {
+    .slick-prev {
+        right: 40px;
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-prev, .slick-next {
+        top: -85px;
+    }
+
+    .slick-list {
+        height: max-content;
+    }
+}
+.slider-three {
+    .slick-prev {
+        right: 40px;
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-prev, .slick-next {
+        top: -85px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slick-dots {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .slider-two .slick-dots {
+        bottom: -45px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .slider-one, .slider-two {
+        .slick-prev {
+            left: calc(52% - 15px);
+            transform-origin: center;
+            transform: rotate(90deg) translateY(-50%);
+        }
+        .slick-next {
+            left: calc(48% - 15px);
+            transform-origin: center;
+            transform: rotate(-90deg) translateY(-50%);
+        }
+    }
+    .slider-one.slider-one {
+        margin-top: 45px;
+        .slick-prev, .slick-next {
+            top: -25px;
+        }
+    }
+    .slider-two.slider-two {
+        margin-top: 55px;
+        .slick-prev, .slick-next {
+            top: -45px;
+        }
+    }
+}

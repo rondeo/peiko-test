@@ -1,0 +1,103 @@
+$light-default: #2E368F;
+$light-hover: #4F58B8;
+$dark-default: #FFC519;
+$dark-hover: #FFD559;
+$dark-text: #1F2569;
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 15px 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  min-width: 188px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.btn.btn--mini {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px 30px;
+  min-width: auto;
+  &.btn-light.btn--raised {
+    background-color: $light-hover;
+  }
+}
+.btn.btn--mini.btn-light.btn--raised.dark--text,
+.btn.btn--mini.btn-dark.btn--raised.dark--text {
+  color: $dark-text !important;
+}
+.btn.btn--icon {
+  display: flex;
+  align-self: center;
+  svg {
+    margin-right: 6px;
+  }
+}
+.btn.btn--icon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 203px;
+  padding: 11px 20px;
+  background-color: #F5F6F7 !important;
+  svg {
+    transition: 0.2s;
+  }
+  &:hover {
+    background-color: $light-default !important;
+    svg path {
+      fill: white;
+    }
+  }
+}
+
+.btn.btn-light.btn--raised {
+  color: white;
+  background-color: $light-default;
+  &:hover {
+    background-color: $light-hover;
+  }
+ }
+.btn.btn-dark.btn--raised {
+  color: white;
+  background-color: $dark-default;
+  &:hover {
+    background-color: $dark-hover;
+  }
+}
+
+.btn.btn-light.btn--outlined {
+  color: $light-default;
+  background-color: transparent;
+  border: 1px solid $light-default;
+  &:hover {
+    color: white;
+    background-color: $light-hover;
+  }
+}
+.btn.btn-dark.btn--outlined {
+  color: $dark-default;
+  background-color: transparent;
+  border: 1px solid $dark-default;
+  &:hover {
+    background-color: $dark-hover;
+  }
+}
+
+.btn-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .btn.btn--width {
+    width: 100%;
+  }
+}

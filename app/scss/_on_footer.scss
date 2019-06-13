@@ -1,0 +1,33 @@
+.on_footer-container {
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.register-info {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    span {
+        margin-right: 60px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: white;
+        text-align: right;
+        max-width: 466px;
+    }
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.reg-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 870px;
+}

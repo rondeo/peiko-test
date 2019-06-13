@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+
+@import "btns";
+@import "slicks";
+@import "head";
+@import "intelligence";
+@import "forum";
+@import "suppliers";
+@import "news";
+@import "on_footer";
+@import "footer";
+
+@import "mobile_menu";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container, .container-fluid {
+  display: block;
+  margin: 0 auto;
+}
+.container-fluid {
+  width: 100%;
+  max-width: 2500px;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  color: #242E33;
+  text-align: center;
+  &.white {
+    color: white;
+  }
+}
+.big-title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  color: #242E33;
+}
+
+.forum-container, 
+.intelligence-container, 
+.news-container,
+footer {
+  padding: 50px 0;
+}
+
+
+
+@import "media";

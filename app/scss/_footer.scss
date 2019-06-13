@@ -1,0 +1,97 @@
+footer {
+    background-color: #E5E5E5;
+}
+
+.footer-body {
+    margin-top: 30px;
+    display: flex;
+    .section {
+        width: calc(33.3333333% - 40px);
+        text-align: left;
+        margin-right: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+        .title {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px;
+            color: #1F2569;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .description {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            color: #242E33;
+        }
+    }
+}
+.resources {
+    .row {
+        display: flex;
+        flex-direction: row;
+        .list {
+            &:first-child {
+                margin-right: 30px;
+            }
+            list-style: none;
+            color: #242E33;
+            li {
+                a {
+                    color: #242E33;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.subscribe-box {
+    height: 48px;
+    width: 100%;
+    max-width: 408px;
+    position: relative;
+    input[type="text"] {
+        width: 100%;
+        padding: 15px 20px;
+        border: none;
+        position: absolute;
+        padding-right: 155px;
+        background: #F5F6F7;
+        border: 1px solid #D9D9D9;
+        border-radius: 5px;
+        &::placeholder {
+            color: #4B4C55;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    input[type="submit"] {
+        right: 2px;
+        top: 50%;
+        cursor: pointer;
+        transform: translateY(-50%);
+        position: absolute;
+        height: 42px;
+        padding: 0px 37px;
+        background-color: #2E368F;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border: none;
+    }
+}
+
+.data-box {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #242E33;
+}
